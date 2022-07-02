@@ -1,0 +1,26 @@
+{
+  "name": "solidjs-ts-starter",
+  "version": "1.0.0",
+  "description": "Basic starter for SolidJS with TypeScript and Webpack",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "license": "None",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "babel-loader": "^8.1.0",
+    "babel-preset-solid": "^1.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "dependencies": {
+    "solid-js": "^1.0.0"
+  }
+}
